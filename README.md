@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# HIReparaciones - Landing Page en React JS 🛠️💻
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**HIReparaciones-React-js** es una landing page moderna desarrollada con **React JS**, creada para promocionar los servicios técnicos de un emprendimiento dedicado a la reparación de PC y notebooks.
 
-## Available Scripts
+Este proyecto representa la evolución del sitio original desarrollado en HTML, CSS y JavaScript plano, que podés ver aquí:  
+🔗 [Versión original (HIR-reparaciones)](https://github.com/IgnacioRojos/HIR-reparaciones.git)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://hireparacionesreactjs.netlify.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🎯 Características principales
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ✅ Diseño responsivo (adaptado para móviles, tablets y escritorio)
+- ✅ Animaciones suaves al hacer scroll (librería AOS)
+- ✅ Componentes reutilizables usando React
+- ✅ Uso de React Bootstrap para maquetación ágil
+- ✅ Botón flotante de WhatsApp para contacto rápido
+- ✅ Secciones claras: inicio, servicios, sobre nosotros y contacto
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🖼️ Capturas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="1917" height="911" alt="image" src="https://github.com/user-attachments/assets/dea2142d-7d61-43b5-9a78-eca632d36c53" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🧰 Tecnologías utilizadas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Herramienta | Uso |
+|-------------|-----|
+| [React JS](https://reactjs.org/) | Framework principal |
+| [React Bootstrap](https://react-bootstrap.github.io/) | Estilos y componentes UI |
+| [AOS](https://michalsnik.github.io/aos/) | Animaciones al hacer scroll |
+| CSS | Estilos personalizados |
+| JSX | Estructura de componentes |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📁 Estructura del proyecto
 
-## Learn More
+HIReparaciones-React-js/
+├── public/
+│ └── index.html
+├── src/
+│ ├── Assets/ # Imágenes del sitio
+│ ├── Components/ # Navbar, Footer, etc.
+│ ├── Pages/ # Páginas principales: Home, Servicios, About
+│ ├── styles/ # CSS modularizado
+│ ├── App.js # Estructura principal del sitio
+│ └── index.js # Punto de entrada de React
+├── .gitignore
+├── package.json
+└── README.md
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## ⚙️ Instalación y ejecución local
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 1. Clonar el repositorio
 
-### Code Splitting
+git clone https://github.com/IgnacioRojos/HIReparaciones-React-js.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm install
 
-### Analyzing the Bundle Size
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Esto abrirá la app en http://localhost:3000.
 
-### Making a Progressive Web App
+📌 Objetivo del proyecto
+El objetivo de este sitio es brindar una presencia digital profesional a un emprendimiento técnico, permitiendo a potenciales clientes:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Conocer los servicios disponibles
 
-### Advanced Configuration
+Ver ejemplos visuales del trabajo realizado
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contactar de forma directa vía WhatsApp
 
-### Deployment
+🙋‍♂️ Autor
+Desarrollado por Ignacio Rojos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+💼 Front-End Developer
 
-### `npm run build` fails to minify
+✉️ [nachorojos99@gmail.com](mailto:nachorojos99@gmail.com)  
+🌐 [LinkedIn](https://www.linkedin.com/in/ignaciorojos)  
+💻 [GitHub](https://github.com/IgnacioRojos)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+🌐 Portafolio: https://porfolioignaciorojos.netlify.app/
+
+
