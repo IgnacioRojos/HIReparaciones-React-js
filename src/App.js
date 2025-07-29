@@ -1,23 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Header from "./Components/Header/header.jsx"
+import Nosotros from './Components/Nosotros/nosotros.jsx';
+import Footer from './Components/Footer/footer.jsx';
+import Contacto from './Components/Contacto/contacto.jsx';
+import Inicio from './Components/Inicio/inicio.jsx';
+import Servicios from './Components/Servicios/servicios.jsx';
+import { BrowserRouter, Routes, Route } from "react-router";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
+
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,     
+    });
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+
+      <BrowserRouter>
+
+        <Header/>
+
+        <Routes>
+
+          <Route path="/" element={<Inicio/>} />
+
+          <Route path="/Contacto" element={<Contacto/>} />
+
+          <Route path="/Nosotros" element={<Nosotros/>} />
+
+          <Route path="/Servicios" element={<Servicios/>} />
+
+        </Routes>
+
+        <Footer/>
+
+      </BrowserRouter>
+
     </div>
   );
 }

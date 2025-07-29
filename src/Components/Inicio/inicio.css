@@ -1,0 +1,46 @@
+.textoPresentacion {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #333;
+    padding: 1rem 2rem;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.roww{
+  padding-bottom: 400px;
+}
+
+
+
+.d-block{
+    width: 100%;
+}
+
+.carousel-item {
+  height: 300px; 
+}
+
+
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  padding-right: 100px;
+}
+
+
+@media (max-width: 768px) {
+    .textoPresentacion {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+      .carousel-item {
+    height: 200px;
+  }
+
+}

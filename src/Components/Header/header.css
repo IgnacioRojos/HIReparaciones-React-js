@@ -1,0 +1,47 @@
+
+.logo {
+    max-height: 50px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.logo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.nav-link {
+    color: #ccc !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    margin: 0 0.3rem;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+    background-color: #007bff;
+}
+
+.nav-link.active {
+    color: #ffffff !important;
+    background-color: #007bff;
+    font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .logo {
+        max-height: 40px;
+        margin-bottom: 0.5rem;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+        padding: 0.4rem 0.8rem;
+    }
+}

@@ -1,0 +1,107 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.row{
+    margin-top: 20px;
+}
+
+.jumbotron {
+    background-color: #e9eff4;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.jumbotron:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.wpconsulta{
+    text-decoration: none;
+}
+
+.oracion {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.lead {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: center;
+}
+
+.tituloBanner {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #17a2b8;
+    margin-top: 1rem;
+}
+
+.consulta {
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.consulta:hover {
+    text-decoration: none;
+    color: black;
+
+}
+
+.cambioPantalla, .reparacionMother, .cambioPiezas, .teclado, .Software {
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.cambioPantalla, .cambioPiezas, .Software{
+    margin-left: 1150px;
+    width: 32%;
+    
+}
+
+.reparacionMother, .teclado, .Software{
+    width: 32%
+}
+
+
+.cambioPantalla:hover, .reparacionMother:hover, .cambioPiezas:hover, .teclado:hover, .Software:hover {
+    transform: scale(1.02);
+}
+
+.row {
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    .oracion {
+        font-size: 1.5rem;
+    }
+    .tituloBanner {
+        font-size: 1.6rem;
+    }
+    .lead {
+        font-size: 1rem;
+    }
+    .cambioPantalla, .reparacionMother, .cambioPiezas, .teclado, .Software {
+        width: 100%;
+    }
+}
