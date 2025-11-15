@@ -8,29 +8,29 @@ import "./header.css";
 
 const Header = () => {
     return (
-        <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+        <Navbar expand="lg" sticky="top" className="headerNav">
             <Container>
                 <Navbar.Toggle aria-controls="navbar-nav" />
                 <Navbar.Collapse id="navbar-nav">
-                <Nav className="d-flex align-items-center flex-wrap">
-                    <Image src={Logo} className="logo img-fluid me-2" alt="Logo HIR Reparaciones" />
-                    <Nav.Link as={NavLink} to="/" end>
-                    Inicio
-                    </Nav.Link>
-                    <Nav.Link as={NavLink} to="/Servicios">
-                    Servicios
-                    </Nav.Link>
-                    <Nav.Link as={NavLink} to="/Nosotros">
-                    Nosotros
-                    </Nav.Link>
-                    <Nav.Link as={NavLink} to="/Contacto">
-                    Contacto
-                    </Nav.Link>
-                </Nav>
+                    <Nav className="d-flex align-items-center flex-wrap ms-auto">
+                        <Image src={Logo} className="logo img-fluid me-3" alt="Logo HIR Reparaciones" />
+
+                        <Nav.Link as={NavLink} to="/" end>
+                            Inicio
+                        </Nav.Link>
+                        <Nav.Link as={NavLink} to="/Servicios">
+                            Servicios
+                        </Nav.Link>
+                        <Nav.Link as={NavLink} to="/Nosotros">
+                            Nosotros
+                        </Nav.Link>
+                        <Nav.Link as={NavLink} to="/Contacto">
+                            Contacto
+                        </Nav.Link>
+                    </Nav>
                 </Navbar.Collapse>
             </Container>
-         </Navbar>
-
+        </Navbar>
     );
 };
 

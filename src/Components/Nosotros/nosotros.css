@@ -1,31 +1,108 @@
-.textoIntroduccion {
-    font-size: 1.1rem;
-    color: #475569;
-    padding: 20px;
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
+/* =======================================
+   CONTENEDOR GENERAL
+======================================= */
+.nosotros-section {
+  padding: 4rem 1.5rem;
+  border-radius: 16px;
+  background: rgba(15, 15, 15, 0.75);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 215, 80, 0.25); /* dorado suave */
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.45);
 }
 
-.roww{
-    padding-top: 10px;
+/* =======================================
+   TÍTULOS
+======================================= */
+.nosotros-titulo {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--color-white);
+  text-shadow: 0 2px 12px rgba(0,0,0,0.4);
 }
 
-
-.fotoDecoracion {
-  width: 500px !important;
-  height: auto !important;
-
+.nosotros-subtitulo {
+  font-size: 1.15rem;
+  color: var(--color-text-light);
+  margin-top: 0.5rem;
 }
 
-.fotoDecoracion:hover {
-    transform: scale(1.03);
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+/* =======================================
+   TEXTO PRINCIPAL
+======================================= */
+.nosotros-texto {
+  font-size: 1.2rem;
+  color: var(--color-text-light);
+  line-height: 1.8;
+  font-weight: 300;
+  max-width: 800px;
 }
 
+/* =======================================
+   IMAGEN
+======================================= */
+.nosotros-imagen {
+  max-width: 190px;
+  border-radius: 12px;
+  border: 1px solid var( --color-primary-dark);
+  box-shadow: 0 6px 18px var( --color-primary-dark);
+  transition: 0.3s ease;
+}
+
+.nosotros-imagen:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px var( --color-primary-dark);
+}
+
+/* =======================================
+   VALORES - CARDS
+======================================= */
+.valor-card {
+  background: rgba(25, 25, 25, 0.85);
+  border-radius: 14px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  height: 100%;
+  border: 1px solid var( --color-primary-dark);
+  box-shadow: 0 6px 22px rgba(0,0,0,0.45);
+  transition: 0.3s ease;
+}
+
+.valor-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 32px var( --color-primary-dark);
+}
+
+.valor-icon {
+  font-size: 2.6rem;
+  color: var(--color-white);
+  margin-bottom: 1rem;
+}
+
+.valor-card h4 {
+  color: var(--color-white);
+  font-size: 1.3rem;
+  margin-bottom: 0.6rem;
+}
+
+.valor-card p {
+  color: var(--color-text-light);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* =======================================
+   RESPONSIVE
+======================================= */
 @media (max-width: 768px) {
-    .textoIntroduccion {
-        font-size: 1rem;
-        padding: 1rem;
-    }
+  .nosotros-titulo {
+    font-size: 2rem;
+  }
+
+  .nosotros-texto {
+    font-size: 1.1rem;
+  }
+
+  .valor-card {
+    padding: 1.7rem 1.2rem;
+  }
 }
