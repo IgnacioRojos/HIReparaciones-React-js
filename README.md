@@ -50,9 +50,8 @@ HIReparaciones-React-js/
 │ └── index.html
 ├── src/
 │ ├── Assets/ # Imágenes del sitio
-│ ├── Components/ # Navbar, Footer, etc.
-│ ├── Pages/ # Páginas principales: Home, Servicios, About
-│ ├── styles/ # CSS modularizado
+│ ├── Components/ # Header, Footer, Inicio, Servicios, Nosotros, Contacto (cada uno con su .css)
+│ ├── Styles/ # Estilos globales (Colors.css)
 │ ├── App.js # Estructura principal del sitio
 │ └── index.js # Punto de entrada de React
 ├── .gitignore
@@ -91,5 +90,4 @@ Desarrollado por Ignacio Rojos
 
 
 🌐 Portafolio: https://porfolioignaciorojos.netlify.app/
-
 
